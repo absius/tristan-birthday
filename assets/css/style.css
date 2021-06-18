@@ -81,6 +81,19 @@ h2 {
     padding-left: 30%;
 }
 
+footer {
+  text-align: center;
+  background-color: black;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+footer img {
+  height: 50px;
+  width: auto;
+}
 @media screen and (max-width: 900px) {
 h2 {
     color: yellow;
