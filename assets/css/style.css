@@ -1,0 +1,88 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkslateblue;
+    color: floralwhite;
+}
+.hero {
+    background-image: url("../images/tristan-smile.jpg");
+    background-repeat: no-repeat;
+  background-size: 100% 100%;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.hero h1 {
+    font-family: cursive;
+    font-size: 55px;
+    color: red;
+    text-shadow: 0 0 10px rgba(212, 210, 49, 0.5);
+    
+}
+
+.form input, .form textarea {
+    background-color: rgba(255,255,255, 0.75);
+  }
+  
+  .form input, .form textarea {
+    border: 1px solid black;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255, 0.75);
+}
+
+.form button {
+    width: 100%;
+    border: none;
+    background: yellowgreen;
+    color: floralwhite;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.form button:hover {
+  color: floralwhite;
+  background: green;
+}
+
+  .form input:focus, .form textarea:focus {
+    background-color: rgba(255,255,255, 1);
+    outline: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: floralwhite;
+
+    font-size: 40px;
+}
+
+.form {
+    text-align: center;
+}
+
+h2 {
+    flex: 0 100%;
+    color: darkslateblue;
+    padding-left: 30%;
+}
+
+@media screen and (max-width: 900px) {
+h2 {
+    color: yellow;
+}
+}
