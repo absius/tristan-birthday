@@ -98,4 +98,8 @@ footer img {
 h2 {
     color: yellow;
 }
+
+footer {
+  position: relative;
+}
 }
